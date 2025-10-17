@@ -35,3 +35,25 @@ footer {
   background: #eee;
   font-size: 0.9rem;
 }
+/* Profile section layout */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #004466;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-text {
+  flex: 1;
+  min-width: 250px;
+}
+
